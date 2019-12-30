@@ -1,0 +1,78 @@
+@import 'stylesheets/colors';
+@import 'stylesheets/TwitterFeed';
+@import 'stylesheets/Tweet';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.tweetBox{
+  margin: 5px auto;
+  padding: 15px;
+  width: 75%;
+  border: solid;
+}
+
+.name_box{
+  display:flex;
+  flex-direction: row;
+  margin: 5px;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+li{
+  margin-left: 30px;
+  font-family: 'Tajawal', sans-serif;
+  color: grey;
+}
+
+p{
+  font-family: 'Tajawal', sans-serif;
+}
+
+#name{
+  font-weight: bold;
+}
+
+#screen_name{
+  margin-left: 10px;
+  color: grey;
+}
+
+.media_img{
+  width: 100%;
+}
+
+.icons{
+  margin-left: -5px;
+}
+
+i{
+  margin: 25px;
+}
+
+.heart{
+  color: red;
+}
+
+.retweeted{
+  color: #42f584;
+}
+
+.reply{
+  color: grey;
+}
+
+.more{
+  color:grey;
+}
+
+.grey{
+  color:grey;
+}
+
+.grey_heart{
+  color: grey;
+}
+
+span{
+  font-family: 'Baloo Bhai', cursive;
+}
